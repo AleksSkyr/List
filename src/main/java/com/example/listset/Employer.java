@@ -8,6 +8,9 @@ public class Employer {
     public int salary;
     private static int idCounter;
 
+    public Employer(String fio, int departament, int salary) {
+    }
+
 
     public void Employee(String fio, int departament, int salary) {
         this.fio = fio;
